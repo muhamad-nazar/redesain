@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;400&family=Montserrat:wght@200&family=Poppins:wght@300&display=swap');
+body {
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    max-width: 380px;
+    /* Center all element*/
+    margin: 0 auto;
+    background-color: #1892DD;
+}
+
+.carousel {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+#car1 {
+    padding-top: 65%;
+}
+
+#car2 {
+    padding-top: 26%;
+}
+
+#car3 {
+    padding-top: 26%;
+}
+
+#car4 {
+    padding-top: 26%;
+}
+
+#desk {
+    width: 212px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-left: 20%;
+}
+
+#indikator {
+    margin-top: 15%;
+    border: none;
+    margin-left: 8px;
+}

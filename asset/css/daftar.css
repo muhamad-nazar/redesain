@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;400&family=Montserrat:wght@200&family=Poppins:wght@300&display=swap');
+body {
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    max-width: 380px;
+    /* Center all element*/
+    margin: 0 auto;
+}

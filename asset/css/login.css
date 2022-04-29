@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;400&family=Montserrat:wght@200&family=Poppins:wght@300&display=swap');
+body {
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    max-width: 380px;
+    /* Center all element*/
+    margin: 0 auto;
+}
+
+nav {
+    height: 160px;
+}
+
+#sapa {
+    width: 245px;
+    height: 20px;
+    font-weight: 800;
+    font-style: bold;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    color: #1892DD;
+}
+
+label {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    color: #828282;
+}
+
+input {
+    width: 280px;
+    height: 40px;
+    background: #FFFFFF;
+    /* blue innactive */
+    border: 1px solid #93B0C1;
+    border-radius: 4px;
+}
+
+#lupa {
+    height: 15px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    text-decoration-line: underline;
+    color: #1892DD;
+}
+
+#daftar {
+    width: 144px;
+    height: 44px;
+    background: #F6F8FA;
+    /* blue primary */
+    border: 2px solid #1892DD;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    color: #1892DD;
+}
+
+#masuk {
+    width: 144px;
+    height: 44px;
+    background: #1892DD;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+#atau {
+    width: 28px;
+    height: 15px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    color: #828282;
+}
+
+#show {
+    position: absolute;
+    margin-left: 70px;
+}

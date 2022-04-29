@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;400&family=Montserrat:wght@200&family=Poppins:wght@300&display=swap');
+body {
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    max-width: 380px;
+    /* Center all element*/
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#selengkapnya {
+    display: none;
+}
+
+#selengkapnya1 {
+    display: none;
+}
+
+#selengkapnya2 {
+    display: none;
+}
+
+#selengkapnya3 {
+    display: none;
+}
+
+#selengkapnya4 {
+    display: none;
+}
+
+#selengkapnya5 {
+    display: none;
+}
+
+#selengkapnya6 {
+    display: none;
+}
+
+#rectangel {
+    background: linear-gradient(3.85deg, #4F4D4D 3.26%, rgba(79, 77, 77, 0) 89.15%);
+    width: 380px;
+    height: 54px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#sapa {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#buleticon {
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 33px;
+    top: 50px;
+    background: #1891DB;
+}
+
+#buleticon1 {
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 121px;
+    top: 50px;
+    background: #27AE60;
+}
+
+#linktext {
+    position: absolute;
+    height: 52px;
+    left: 115px;
+    top: 120px;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    width: 70px;
+}
+
+#links {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration: none;
+    color: black;
+    margin-top: 17px;
+}
+
+#link1 {
+    width: 130px;
+    height: 0px;
+    left: 0px;
+    top: 35px;
+    border: 4px solid #1892DD;
+}
+
+#link2 {
+    width: 130px;
+    height: 0px;
+    left: 130px;
+    top: 35px;
+    border: 4px solid #1892DD;
+}
+
+#link3 {
+    width: 120px;
+    height: 0px;
+    left: 260px;
+    top: 35px;
+    border: 4px solid #1892DD;
+}
+
+#linkcarousel {
+    position: absolute;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+#detailjudul {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+#tgl {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+#kasihbarang {
+    position: absolute;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 10px;
+    line-height: 15px;
+}
+
+#barang {
+    font-weight: 600;
+    position: absolute;
+    font-size: 14px;
+    line-height: 17px;
+}

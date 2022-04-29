@@ -1,0 +1,106 @@
+* Style Gambar yang Digunakan untuk Memicu Modal */ #myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {
+    opacity: 0.7;
+}
+
+
+/* Modal (background) */
+
+.modal {
+    display: none;
+    /* Tersembunyi secara default*/
+    position: fixed;
+    /* Tetap ditempat */
+    z-index: 1;
+    /* Tetap diatas */
+    padding-top: 100px;
+    /* Lokasi kotak */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* lebar penuh */
+    height: 100%;
+    /* tinggi penuh */
+    overflow: auto;
+    /* Aktifkan scroll jika dibutuhkan */
+    background-color: rgb(0, 0, 0);
+    /* Warna Fallback */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Hitam dengan opacity */
+}
+
+
+/* Modal Content (Image) */
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+
+/* Caption of Modal Image (Image Text) - Lebar Sama dengan Gambar */
+
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+
+/* Tambahkan Animasi - Memperbesar Modal */
+
+.modal-content,
+#caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+
+/* Tombol Close */
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* 100% Lebar Gambar pada Layar yang Lebih Kecil */
+
+@media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 100%;
+    }
+}
